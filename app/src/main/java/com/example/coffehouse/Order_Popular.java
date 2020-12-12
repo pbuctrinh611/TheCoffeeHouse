@@ -38,29 +38,31 @@ public class Order_Popular extends Fragment {
 
     private void loadData() {
         list = new ArrayList<>();
-        list.add(new Model_Order(R.drawable.coffe1,"Cà phê Lúa Mạch Đá","69.000đ",R.drawable.ic_plus));;
-        list.add(new Model_Order(R.drawable.coffe_nong,"Cà phê Lúa Mạch Nóng","69.000đ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe2,"Cold Brew Cam Sả","50.000đ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe3,"Trà Đen Macchiato","42.000đ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe_bacsiu,"Bạc Sỉu","32.000đ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe_sua,"Cà Phê Sữa","32.000đđ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe_den,"Cà phê Đen","32.000đ",R.drawable.ic_plus));
-        list.add(new Model_Order(R.drawable.coffe3,"Cappucino","54.000đ",R.drawable.ic_plus));
+        list.add(new Model_Order(R.drawable.coffe1,"Cà phê Lúa Mạch Đá","69",R.drawable.ic_plus,"Yêu chiều bản" +
+                " thân cùng hương vị ngọt ngào, được cân chỉnh hợp lý sô cô la mát lạnh, lúa mạch thơm lừng. " +
+                "Vị giáng sinh hoàn hảo dành cho bạn, Order liền thôi!"));;
+        list.add(new Model_Order(R.drawable.coffe_nong,"Cà phê Lúa Mạch Nóng","69",R.drawable.ic_plus,"1 tách cà phê " +
+                "đặc biệt cho mùa đặc biệt nhất năm. Lúa mạch thơm lừng kết hợp cùng cà phê đượm vị. Thưởng thúc vị Giáng sinh giành riêng" +
+                "cho bạn hôm nay nhé."));
+        list.add(new Model_Order(R.drawable.coffe2,"Cold Brew Cam Sả","50",R.drawable.ic_plus,"Tươi mát - Mượt mà" +
+                ", là sự kết hợp đầy mới mẻ khí hương vị của cam và sả được cân bằng trên nền của những nốt hương cà phê pha lạnh."));
+        list.add(new Model_Order(R.drawable.coffe3,"Trà Đen Macchiato","42",R.drawable.ic_plus,"Trà đen được ủ mới mỗi ngày" +
+                ", giữ nguyên được vị chát mạnh mẽ đặc trửng của lá trà, phủ bên trên là lớp Macchiato 'homemade' bồng bềnh quyến rũ vị phô mai mặn mặn " +
+                "mà béo béo"));
+        list.add(new Model_Order(R.drawable.coffe_bacsiu,"Bạc Sỉu","32",R.drawable.ic_plus,"Theo chân những người gốc Hoa đến" +
+                "định của tại Sài Gòn, Bạc sỉu là cách gọi tắt của 'Bạc tày xỉu phé' trong tiếng Quảng Đông, chính là : Ly sữa trắng kèm một chút cà phê"));
+        list.add(new Model_Order(R.drawable.coffe_sua,"Cà Phê Sữa","32",R.drawable.ic_plus,"Cà phê phin kết hợp cùng sữa đặc" +
+                " là một sáng tạo đầy tự hào của người Việt, được xem món uống thương hiệu của Việt Nam."));
+        list.add(new Model_Order(R.drawable.coffe_den,"Cà phê Đen","32",R.drawable.ic_plus,"Một tách cà phê đen thơm ngào ngạt" +
+                ", phảng phất mùi cacao là món quà tự thưởng tuyệt vời nhất cho những ai mê đắm tinh chất nguyên bản chất của cà phê. Một tách cà phê" +
+                "Một tách cà phê trầm lắng, thi vị giữa dòng đời vỗn vã."));
+        list.add(new Model_Order(R.drawable.coffe3,"Cappucino","54",R.drawable.ic_plus,"Cappuccino được gọi là thức uống" +
+                " 'một - phần - ba' - 1/3 Espresso, 1/3 Sữa nóng, 1/3 Foam."));
     }
     public void addControls(View v){
         rcv = v.findViewById(R.id.gridview_popular);
-//        dialog_product = v.findViewById(R.id.dialog_product);
-//        dialog_product.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                DialogProduct();
-//            }
-//        });
     }
-//    private void DialogProduct() {
-//        Dialog dialog = new Dialog(getActivity());
-//        dialog.show();
-//    }
+
     public void loadListNotification(){
         RecyclerViewOrderFood myAdapter = new RecyclerViewOrderFood(getActivity(),list);
         rcv.setLayoutManager(new GridLayoutManager(getActivity(),2));

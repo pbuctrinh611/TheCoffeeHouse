@@ -5,12 +5,22 @@ public class Model_Order {
     private String title;
     private String money;
     private int icon;
+    private String description;
 
-    public Model_Order(int image, String title, String money, int icon) {
+    public Model_Order(int image, String title, String money, int icon, String description) {
         this.image = image;
         this.title = title;
         this.money = money;
         this.icon = icon;
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public int getImage() {
