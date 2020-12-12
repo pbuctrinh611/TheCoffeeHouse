@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_product"
+    android:paddingTop="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/coffe1"
+                tools:ignore="MissingPrefix" />
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/descripton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/title_gthieu"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:text="Ngại ra ngoài cứ để Nhà lo"/>
+                <TextView
+                    android:id="@+id/content_product"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:text="Sô cô la thơm lừng bao bọc hạc Mắc ca bùi béo thiệt gon"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#A4A4A4"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bt_money"
+                    android:textSize="17sp"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="70dp"
+                    android:text="Order Ngay!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

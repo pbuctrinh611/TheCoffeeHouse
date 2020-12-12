@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    tools:context=".Detail_ChiTietUuDai">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/img_back"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+        <TextView
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textStyle=""
+            android:textColor="@color/black"
+            android:drawablePadding="20dp"
+            android:text="Giảm 50%, thèm gì gọi nhé Nh..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_reply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ImageView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/detail_bosuutap_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="15dp"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="27sp"
+                    android:text="Giảm 50%, thèm gì gọi nhé Nhà mang tới liền"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:text="ngày 7 tháng 12, 2020"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:textSize="15sp"
+                    android:padding="15dp"
+                    android:text="Hòa vào không khí siêu sale cuối năm, mời team mình nghỉ tay gọi
+món yêu thích, Nhà giảm 50% khi nhập mã MERRY50 - để lên tinh thần săn sale thoăn thoát cùng:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_diamond"
+                    android:text="Trà sữa chân ái."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="3dp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_diamond"
+                    android:text="Trà trái cây mát lạnh."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_diamond"
+                    android:text="Trà macchiato thơm béo."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:text="Shipper Nhà rộn ràng chờ bạn đặt alf giao liền tận nơi, chỉ 30 phút và Freeship luôn nha."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:text="Sướng nhất team săn sale rồi, order liền thôi!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/duonggach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </ImageView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:text="*Hạn sử dụng ưu đãi: 08/12 - 12/12."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:text="*Ưu đãi giảm 50%, tối đa 40K áp chụng cho Trà trái cây, Trà sữa, Macchiato. Không áp dụng cho bình giữ nhiệt, túi vải."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:text="*Ưu đãi áp dụng cho đơn hàng giao tận nơi, không áp dụng song song với chương trình khuyến mãi khác."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="50dp"
+                    android:textSize="15sp"
+                    android:text="*Ưu đãi có kết thúc sớm hơn dự kiến."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

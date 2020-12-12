@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order_Popular"
+    android:background="#f5f5f5"
+    android:padding="7.5dp">
+    <TextView
+        android:padding="10dp"
+        android:textColor="#2E2E2E"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Món được yêu thích"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview_popular"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="50dp"
+        android:dividerHeight="10.0sp"/>
+</LinearLayout>

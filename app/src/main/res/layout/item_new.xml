@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/design_boder"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_title"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/new_uudai1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:text="Giảm 50%, thèm gì gọi nhé Nhà mang tới liền"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_content"
+            android:textSize="15sp"
+            android:paddingLeft="5dp"
+            android:text="Hòa vào không khí siêu sale cuối năm, mời team mình nghỉ tay gọi món yêu thích,..."
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+        </TextView>
+        <Button
+            android:id="@+id/bt_detail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Chi tiết"
+            android:textSize="8sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

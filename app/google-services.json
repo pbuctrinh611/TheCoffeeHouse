@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689474390762",
+    "project_id": "thecoffehouse611",
+    "storage_bucket": "thecoffehouse611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689474390762:android:beb86d8642bc1f0bc1e593",
+        "android_client_info": {
+          "package_name": "com.example.coffehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689474390762-bqejoqa2q4phjmilmmfnlbivhbcjiqk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-LSBh10g9r_lUTGW4W91FLyFeMTRhPrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689474390762-bqejoqa2q4phjmilmmfnlbivhbcjiqk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

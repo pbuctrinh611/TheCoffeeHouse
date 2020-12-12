@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_Drink"
+    android:background="#f5f5f5"
+    android:padding="7.5dp">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview_drink"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="50dp"
+        android:dividerHeight="10.0sp"/>
+</LinearLayout>

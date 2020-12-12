@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    tools:context=".TaiKhoan">
+    <LinearLayout
+        android:id="@+id/linear_profile"
+        android:background="@color/white"
+        android:padding="50px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sillva"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+        </ImageView>
+        <LinearLayout
+            android:layout_marginLeft="30px"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <TextView
+                android:textColor="#2E2E2E"
+                android:textSize="25sp"
+                android:text="Phúc Trịnh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:textColor="#424242"
+                android:textSize="20sp"
+                android:text="Khách hàng mới"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/ic_coin"
+            android:layout_marginLeft="310px"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50px"
+        android:background="@color/white"
+        android:padding="50px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawablePadding="30px"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_stars_24"
+            android:text="The Coffee House Rewards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_tttk"
+            android:drawablePadding="30px"
+            android:layout_marginTop="50px"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_people_alt_24"
+            android:text="Thông tin tài khoản"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="30px"
+            android:layout_marginTop="50px"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_queue_music_24"
+            android:text="Nhạc đang phát"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="30px"
+            android:layout_marginTop="50px"
+            android:textColor="#424242"
+            android:drawableLeft="@drawable/ic_baseline_history_24"
+            android:textSize="20sp"
+            android:text="Lịch sử"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="30px"
+            android:layout_marginTop="50px"
+            android:textColor="#424242"
+            android:drawableLeft="@drawable/ic_baseline_help_outline_24"
+            android:textSize="20sp"
+            android:text="Giúp đỡ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_caidat"
+            android:drawableLeft="@drawable/ic_baseline_settings_24"
+            android:layout_marginTop="50px"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:drawablePadding="30px"
+            android:text="Cài đặt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:textColor="#424242"
+        android:padding="50px"
+        android:textSize="20sp"
+        android:text="Đăng xuất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>
