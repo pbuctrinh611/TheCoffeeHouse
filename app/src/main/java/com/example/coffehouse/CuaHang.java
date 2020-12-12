@@ -24,17 +24,17 @@ public class CuaHang extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_tai_khoan,container,false);
+        View v = inflater.inflate(R.layout.fragment_cua_hang,container,false);
         addControl(v);
         return v;
     }
     public void addControl(View v) {
         img_close = v.findViewById(R.id.close_map);
 
-        img_close.setOnClickListener(new View.OnClickListener() {
+        img_close.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),CaiDat.class);
+                Intent intent = new Intent(getActivity(),MainActivity.class);
                 startActivity(intent);
             }
         });
