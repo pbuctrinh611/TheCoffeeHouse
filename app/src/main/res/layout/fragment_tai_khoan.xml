@@ -117,6 +117,7 @@
         </TextView>
     </LinearLayout>
     <TextView
+        android:id="@+id/tv_dangxuat"
         android:textColor="#424242"
         android:padding="50px"
         android:textSize="20sp"

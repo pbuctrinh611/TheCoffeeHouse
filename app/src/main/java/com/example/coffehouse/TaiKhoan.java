@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class TaiKhoan extends Fragment {
-    TextView tv_caidat,tv_tttk;
+    TextView tv_caidat,tv_tttk,tv_dx;
     LinearLayout linear_profile;
 
     @Override
@@ -32,6 +32,7 @@ public class TaiKhoan extends Fragment {
     public void addControl(View v) {
         tv_caidat = v.findViewById(R.id.tv_caidat);
         tv_tttk = v.findViewById(R.id.tv_tttk);
+        tv_dx = v.findViewById(R.id.tv_dangxuat);
         linear_profile = v.findViewById(R.id.linear_profile);
 
         tv_caidat.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +53,13 @@ public class TaiKhoan extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),profile.class);
+                startActivity(intent);
+            }
+        });
+        tv_dx.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),Login.class);
                 startActivity(intent);
             }
         });
